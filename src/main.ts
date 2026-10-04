@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 
 import { loadNlsMessages } from './nls-loader.js';
+import './styles.css';
 
 async function sidexOpenFolder() {
 	try {

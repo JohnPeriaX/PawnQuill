@@ -190,8 +190,7 @@ import './contrib/preferences/browser/preferences.contribution.js';
 import './contrib/preferences/browser/keybindingsEditorContribution.js';
 import './contrib/preferences/browser/preferencesSearch.js';
 
-// Testing
-import './contrib/testing/browser/testing.contribution.js';
+// Testing: STRIPPED for RAM (SideX does not surface the testing explorer)
 
 // Logs
 import './contrib/logs/common/logs.contribution.js';
@@ -227,17 +226,6 @@ import './contrib/sash/browser/sash.contribution.js';
 import './contrib/scm/browser/scm.contribution.js';
 import './contrib/scm/browser/git.contribution.js';
 
-// Remote Explorer
-import './contrib/remote/browser/remote.contribution.js';
-
-// Debug
-import './contrib/debug/browser/debug.contribution.js';
-import './contrib/debug/browser/debugEditorContribution.js';
-import './contrib/debug/browser/breakpointEditorContribution.js';
-import './contrib/debug/browser/callStackEditorContribution.js';
-import './contrib/debug/browser/repl.js';
-import './contrib/debug/browser/debugViewlet.js';
-
 // Markers
 import './contrib/markers/browser/markers.contribution.js';
 
@@ -252,9 +240,6 @@ import './contrib/webview/browser/webview.contribution.js';
 import './contrib/webviewPanel/browser/webviewPanel.contribution.js';
 import './contrib/webviewView/browser/webviewView.contribution.js';
 
-// Image Preview
-import './contrib/imagePreview/browser/imagePreview.contribution.js';
-
 // Extensions Management
 import './contrib/extensions/browser/extensions.contribution.js';
 import './contrib/extensions/browser/extensionsViewlet.js';
@@ -266,14 +251,11 @@ import './contrib/output/browser/outputView.js';
 // Terminal
 import './contrib/terminal/terminal.all.js';
 
-// External terminal
-import './contrib/externalTerminal/browser/externalTerminal.contribution.js';
-
 // Tasks
 import './contrib/tasks/browser/task.contribution.js';
 
-// Markdown
-import './contrib/markdown/browser/markdown.contribution.js';
+// Markdown preview: STRIPPED for RAM (leaf contribution; not surfaced in SideX)
+// import './contrib/markdown/browser/markdown.contribution.js';
 
 // Keybindings Contributions
 import './contrib/keybindings/browser/keybindings.contribution.js';
@@ -293,8 +275,8 @@ import './contrib/limitIndicator/browser/limitIndicator.contribution.js';
 // Themes
 import './contrib/themes/browser/themes.contribution.js';
 
-// Language Status
-import './contrib/languageStatus/browser/languageStatus.contribution.js';
+// Language Status: STRIPPED for RAM (leaf status-bar contribution)
+// import './contrib/languageStatus/browser/languageStatus.contribution.js';
 
 // Workspace
 import './contrib/workspace/browser/workspace.contribution.js';

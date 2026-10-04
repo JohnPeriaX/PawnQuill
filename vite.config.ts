@@ -29,7 +29,11 @@ export default defineConfig({
     port: 1420,
     strictPort: true,
     watch: {
-      ignored: ['**/src-tauri/**'],
+      // Ignore Rust/Go build artifacts. On Windows, chokidar trying to watch a
+      // cargo build-script .exe that is mid-write throws EBUSY and crashes the
+      // dev server. Root `target/` is the Cargo workspace output dir (not covered
+      // by the src-tauri rule), so it must be ignored explicitly.
+      ignored: ['**/src-tauri/**', '**/target/**', '**/sidexai/**'],
     },
   },
   envPrefix: ['VITE_', 'TAURI_'],
