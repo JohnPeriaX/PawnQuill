@@ -1,0 +1,81 @@
+PawnQuill Public Source License
+Version 1.0
+
+Copyright (c) 2026 JohnPeriaX
+
+This License applies only to original PawnQuill work for which the copyright
+holder has sufficient rights to grant this License.
+
+Code derived from third-party projects is not relicensed by this document.
+Such code remains subject to the original license and copyright notices that
+apply to it. See LICENSE-SIDEX.md, NOTICE.md, and THIRD_PARTY_NOTICES.md.
+
+1. Permission
+
+Permission is granted to use, study, modify, build, and run original PawnQuill
+work for personal, educational, development, and commercial purposes, subject
+to the terms of this License.
+
+2. Redistribution
+
+If you distribute PawnQuill or a modified version in source or binary form,
+you must:
+
+a. Include this License with the distribution.
+
+b. Preserve applicable copyright notices and third-party license notices.
+
+c. Clearly identify a modified version as modified.
+
+d. Make the corresponding source code of the distributed version available to
+   recipients.
+
+3. Corresponding Source
+
+The corresponding source must be sufficient to build the distributed version
+and must include modifications made to original PawnQuill work covered by this
+License.
+
+The corresponding source must be available without requiring a separate
+purchase from recipients of the distributed software.
+
+4. Modifications
+
+You may add, remove, or replace functionality.
+
+A modified version must not be represented as the original unmodified PawnQuill
+release.
+
+5. Third-Party Code
+
+This License does not replace, cancel, or modify third-party licenses.
+
+In particular, code derived from SideX and Visual Studio Code / Code - OSS
+continues to be governed by the licenses that apply to those portions.
+
+The original SideX MIT license is preserved in LICENSE-SIDEX.md.
+
+6. Trademarks
+
+This License does not grant permission to use the names, logos, trademarks,
+or branding of PawnQuill or any third party except where otherwise permitted
+by law or by the relevant rights holder.
+
+7. No Warranty
+
+PawnQuill is provided "AS IS", without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability, fitness
+for a particular purpose, and noninfringement.
+
+The copyright holders and contributors are not liable for claims, damages,
+or other liability arising from use of the software.
+
+8. Acceptance
+
+Redistribution of original PawnQuill work covered by this License constitutes
+acceptance of this License.
+
+If you do not accept these terms, you may not redistribute that original
+PawnQuill work under this License.
+
+END OF LICENSE
